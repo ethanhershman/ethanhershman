@@ -1,9 +1,9 @@
 # About Me:
 I’m a Data Science student at UC Davis passionate about transforming data into actionable insights through machine learning, statistical modeling, and visualization. I enjoy applying data-driven methods to real-world challenges—from sports analytics to traffic forecasting—and continuously expand my skills through hands-on projects.<br>
 
-Currently Exploring<br>Generative AI & Transformer architectures<br>Cloud-based model deployment (AWS & Azure)<br>Data storytelling with Power BI, Seaborn, and Matplotlib<br>
+**Currently Exploring**<br>Generative AI & Transformer architectures<br>Cloud-based model deployment (AWS & Azure)<br>Data storytelling with Power BI, Seaborn, and Matplotlib<br>
 
-Projects<br>All-NBA Prediction – Achieved 97% accuracy predicting team selections with Random Forest<br>Traffic Forecasting – Modeled traffic patterns using time series analysis<br>Forklift Safety – Built a real-time computer vision system to detect unsafe operations
+**Projects**<br>All-NBA Prediction – Achieved 97% accuracy predicting team selections with Random Forest<br>Traffic Forecasting – Modeled traffic patterns using time series analysis<br>Forklift Safety – Built a real-time computer vision system to detect unsafe operations
 
 
 ## 🌐 Socials:
