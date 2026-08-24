@@ -1,12 +1,15 @@
 # About Me:
-I'm a data scientist focused on building end-to-end systems — from distributed data processing to trained models to deployed services. I finished my BS in Data Science at UC Davis in June 2026 and start my MS in Data Science at UC San Diego this fall. Most of my work lives at the intersection of large-scale data engineering and applied ML, and I care as much about whether a model ships and holds up as about whether it scores well offline.<br>
+I finished my BS in Data Science at UC Davis in June 2026 and start my MS in Data Science at UC San Diego this fall. A lot of my work comes out of sports. I grew up around baseball and basketball, and questions I couldn't answer by watching games are usually what send me looking for the data.
 
 **Currently Exploring**<br>Distributed processing at scale with PySpark and Snowflake<br>Production ML deployment on AWS and GCP<br>Analytics engineering patterns with dbt and Airflow<br>
 
+**Internship Work**<br>
+**Forklift Proximity Detection (TechnipFMC)**: Built a real-time computer vision system with PyTorch and YOLOv8n that identifies when people are working too close to active forklifts. Structured pruning and quantization reduced inference latency for deployment. Presented results to the executive leadership team at closeout.
+
 **Projects**<br>
-**Flight Delay Cascade Prediction** — Processed 142M+ flight records with PySpark on AWS EMR, linking each flight to its aircraft's earlier legs to capture accumulated delay. XGBoost model on SageMaker flags likely delays 3 hours before departure, improving precision-recall 93% over a schedule-only baseline.<br>
-**Grocery Shrinkflation Tracker** — Incremental daily Snowflake pipeline over 17M+ product records that detects items sold under an unchanged name at a reduced size. 10 dbt models validated by 31 tests; flagged 618 products that shrank an average of 14.1% at 94.2% hand-validated precision.<br>
-**Pitch Tipping Detector** — Regularized multinomial logistic models fit per pitcher across 760K pitches to predict pitch type from release mechanics, beating a situation-only baseline by 17.9 points. Served through a containerized FastAPI app on Cloud Run that loads models on request rather than holding all 436 in memory.<br>
+**Pitch Tipping Detector**: Regularized multinomial logistic models fit per pitcher across 760K pitches, predicting pitch type from release mechanics alone and beating a situation-only baseline by 17.9 points. Served through a containerized FastAPI app on Cloud Run that loads models on request instead of holding all 436 in memory. Flagged 9 pitchers more than 2 SD above league average.<br>
+**Flight Delay Cascade Prediction**: Processed 142M+ flight records with PySpark on AWS EMR, linking each flight to its aircraft's earlier legs to capture accumulated delay and remaining schedule buffer. An XGBoost model on SageMaker flags likely delays 3 hours before departure, improving precision-recall 93% over a schedule-only baseline.<br>
+**Grocery Shrinkflation Tracker**: Incremental daily Snowflake pipeline over 17M+ product records that detects items sold under an unchanged name at a reduced size. 10 dbt models validated by 31 tests, flagging 618 products that shrank an average of 14.1% at 94.2% hand-validated precision.<br>
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ethan-hershman-3363662a0) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ethanhershman@gmail.com) 
